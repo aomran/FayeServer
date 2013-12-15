@@ -30,6 +30,7 @@ GEM
       thor (>= 0.13.6)
     http_parser.rb (0.6.0.beta.2)
     multi_json (1.8.2)
+    newrelic_rpm (3.7.0.177)
     private_pub (1.0.3)
       faye
     rack (1.5.2)
@@ -45,5 +46,6 @@ PLATFORMS
 
 DEPENDENCIES
   foreman
+  newrelic_rpm
   private_pub
   thin
