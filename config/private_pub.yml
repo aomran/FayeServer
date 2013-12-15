@@ -1,2 +1,3 @@
-secret_token: "64522e60e25b29293d2b968773bdb695a55c7744f67b91220c97ee818fd69698"
-signature_expiration: 3600 # one hour
+production:
+  secret_token: "64522e60e25b29293d2b968773bdb695a55c7744f67b91220c97ee818fd69698"
+  signature_expiration: 3600 # one hour
