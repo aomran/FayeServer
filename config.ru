@@ -1,4 +1,5 @@
 # Run with: rackup private_pub.ru -s thin -E production
+require 'newrelic_rpm'
 require "bundler/setup"
 require "yaml"
 require "faye"
