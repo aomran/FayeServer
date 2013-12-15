@@ -1,1 +1,1 @@
-custom_web: bundle exec thin start --socket /tmp/web_server.sock --pid /tmp/web_server.pid -e $RACK_ENV -d
+web: bundle exec thin -p $PORT -e $RACK_ENV -R config.ru start
