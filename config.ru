@@ -17,5 +17,4 @@ class ServerAuth
 end
 
 faye_server = Faye::RackAdapter.new(:mount => '/faye', :timeout => 45)
-faye_server.add_extension(ServerAuth.new)
 run faye_server
