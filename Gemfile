@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
 
+gem 'foreman'
 gem 'thin'
-gem 'faye'
+gem 'private_pub'

@@ -4,6 +4,7 @@ GEM
     addressable (2.3.5)
     cookiejar (0.3.0)
     daemons (1.1.9)
+    dotenv (0.9.0)
     em-http-request (1.1.1)
       addressable (>= 2.3.4)
       cookiejar
@@ -21,21 +22,28 @@ GEM
       multi_json (>= 1.0.0)
       rack (>= 1.0.0)
       websocket-driver (>= 0.3.0)
-    faye-websocket (0.7.0)
+    faye-websocket (0.7.1)
       eventmachine (>= 0.12.0)
-      websocket-driver (>= 0.3.0)
+      websocket-driver (>= 0.3.1)
+    foreman (0.63.0)
+      dotenv (>= 0.7)
+      thor (>= 0.13.6)
     http_parser.rb (0.6.0.beta.2)
     multi_json (1.8.2)
+    private_pub (1.0.3)
+      faye
     rack (1.5.2)
     thin (1.6.1)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
       rack (>= 1.0.0)
-    websocket-driver (0.3.0)
+    thor (0.18.1)
+    websocket-driver (0.3.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  faye
+  foreman
+  private_pub
   thin
